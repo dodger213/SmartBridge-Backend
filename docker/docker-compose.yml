@@ -1,0 +1,15 @@
+version: '3.9'
+services:
+  swap-backend:
+    image: 'registry.iop-ventures.com/defi/swap-site-backend/swap-backend:latest'
+    container_name: swap-backend
+    networks:
+      - core
+    volumes:
+      - ./data:/app/data
+      - ./.env:/app/.env
+    ports:
+      - "3000:3000"
+
+networks:
+  core:
