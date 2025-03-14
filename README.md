@@ -1,9 +1,6 @@
-## HYD <-> WHYD Bridge Backend
+# Smart Bridge Backend
 
-## Requirements
-
-- Node 14
-- make
+## Description
 
 ## Installation
 
